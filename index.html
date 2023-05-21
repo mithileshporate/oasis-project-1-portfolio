@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mithilesh - My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;1,100&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      body {
+        background-color: rgb(8, 8, 43);
+        font-family:'Poppins',sans-serif;
+        color: white;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color:  rgb(29, 29, 78);
+      }
+      ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none; 
+        /* bullet remove */
+        margin: 0 23px;
+      }
+      .left{
+        font-size:1.5rem;
+      }
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 70px 0;
+      }
+      .firstsection > div{
+        width: 31%;
+    }
+    .sectionleft{
+        font-size: 2.4rem;
+        margin: 100px 0;
+      }
+      .sectionleft .buttons{
+          padding: 45px 0;
+      }
+      .sectionleft .btn{
+        padding: 11px 50px;
+        font-size: 22px;
+        color: white;
+        border: 2px solid white;
+        background-color:rgb(58, 58, 171);
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .sectionright img{
+        width: 80%;
+        margin: 25px 10px;
+      }
+      .color{
+        color: rgb(154, 154, 248);;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+        color: rgb(154, 154, 248);
+        font-size: 1rem;
+      }
+      #element{
+        color: rgb(154, 154, 248);
+      }
+
+      .secondsection{
+        max-width: 80vw;
+        margin: 50PX auto;
+
+        height: 100vh;
+      }
+      main hr{
+        border: 0;
+        height: 0.6px;
+        margin: 10px 84px;
+        background-color: rgb(188, 165, 210);
+      }
+      .secondsection h1{
+        font-size: 2rem;
+        margin: 10px auto;
+      }
+      .text-grey{
+        color: gray;
+      }
+      .secondsection .box{
+        background: white;
+        margin: 56px 0;
+        height: 2px;
+        width: 80vw;
+      }
+      .secondsection .vertical1{
+        position: relative;
+        left: 120px;
+        bottom: 56px;
+        height: 93px;
+        background-color:white;
+        width: 1px;  
+      }
+      .secondsection .vertical2{
+        position: relative;
+        left: 355px;
+        bottom: 149px;
+        height: 93px;
+        background-color:white;
+        width: 1px;
+      }
+      .secondsection .vertical3{
+        position: relative;
+        left: 600px;
+        bottom: 241px;
+        height: 93px;
+        background-color:white;
+        width: 1px;
+      }
+      .secondsection .vertical4{
+        position: relative;
+        left: 845px;
+        bottom: 334px;
+        height: 93px;
+        background-color:white;
+        width: 1px;
+      }
+      .secondsection .vertical5{
+        position: relative;
+        left: 1080px;
+        bottom: 428px;
+        height: 93px;
+        background-color:white;
+        width: 1px;
+      }
+      .html{
+        position: relative;
+        left: 90px;
+        bottom: 420px;
+        font-size: 1.7rem;
+        color: rgba(118, 12, 206, 0.886);
+      }
+      .css{
+        position: relative;
+        left: 260px;
+        bottom: 420px;
+        font-size: 1.7rem;
+        color: rgba(118, 12, 206, 0.886);
+      }
+      .js{
+        position: relative;
+        left: 400px;
+        bottom: 420px;
+        font-size: 1.7rem;
+        color: rgba(118, 12, 206, 0.886);
+
+      }
+      .cpp{
+        position: relative;
+        left: 525px;
+        bottom: 420px;
+        font-size: 1.7rem;
+        color: rgba(118, 12, 206, 0.886);
+        color: rgba(118, 12, 206, 0.886);
+      }
+      .dsa{
+        position: relative;
+        left: 705px;
+        bottom: 420px;
+        font-size: 1.7rem;
+        color: rgba(118, 12, 206, 0.886);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Mithilesh's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="sectionleft">
+                Hello, My name <span class="color">Mithilesh</span>
+                <div>
+                    and I am a Passionate
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                  <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="sectionright">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="secondsection">
+                <span class="text-grey">What I have Learn So Far</span>
+                <h1>My Skills</h1>
+                <div class="box"></div>   
+                <div class="vertical1"></div> 
+                <div class="vertical2"></div> 
+                <div class="vertical3"></div> 
+                <div class="vertical4"></div> 
+                <div class="vertical5"></div> 
+                <span class="html">HTML</span>
+                <span class="css">CSS</span>
+                <span class="js">JAVASCRIPT</span>
+                <span class="cpp">CPP</span>
+                <span class="dsa">DSA</span>
+              </div>    
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer !', 'App D enthusiast !'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
